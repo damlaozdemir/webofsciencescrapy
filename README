@@ -1,0 +1,14 @@
+-To crawl webofknowledge.com; always you need to change the default start url from webofscience/webofscience/spiders/webofsciencespider.py 'start_urls' to the url what you get after filtering your webofscience fields. After save it, it will crawl below fields for you: 
+-title
+-abstract
+-address
+-keywords
+-keywordsplus
+-authors
+-journal
+-DOI
+-published
+
+-If you want to add any item, you need to declare it in items.py which is in webofscince folder.
+
+
